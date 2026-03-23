@@ -14,7 +14,7 @@ psi={psi_1^a,psi_2^(a)} ,  a = 0, 1, ..., 7
 
 [see split octonions, below];
 
-Quantum description of Pre-Big-Bang is also constructed using 'triality' and the inner product algebra Os.
+Quantum description of Pre-Big-Bang is also constructed using the split octonion inner product algebra Os  and'triality' .
 
 Recall:
 
