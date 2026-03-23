@@ -9,9 +9,12 @@ Quantum description of Pre-Big-Bang,
 constructed using 
 the (pseudo-) Clifford algebra C_8, with 16-component basic spinor representation ,
 and representation matrices acting on 
-psi={psi_1^a,psi_2^(a)} ,  a = 0, 1, ..., 7  [see split octonions, below];
 
-Quantum description of Pre-Big-Bang also constructed using triality of the inner product algebra Os.
+psi={psi_1^a,psi_2^(a)} ,  a = 0, 1, ..., 7  
+
+[see split octonions, below];
+
+Quantum description of Pre-Big-Bang is also constructed using 'triality' and the inner product algebra Os.
 
 Recall:
 
