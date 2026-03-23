@@ -16,11 +16,10 @@ Quantum description of Pre-Big-Bang also constructed using triality of the inner
 Recall:
 
 properties of the
-split octonion inner product algebra Os 
+split octonion inner product algebra Os :
 
-with 1 \in Os;
+1 \in Os;
 
-with
 non-degenerate indefinite inner product
 < , > : Os X Os \mapsto R ;
 
