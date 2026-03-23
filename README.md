@@ -46,7 +46,8 @@ Os is endowed ith a non-associative multiplication $Os \times Os \mapsto Os$   ;
 
 We define the orthogonal compliment of 1 to be $Im \space Os \in Os$. 
 It is a
-proper subspace and we have $Os = \mathbb{R}$ \times Im Os$
+proper subspace and we have 
+$$Os = \mathbb{R} \times Im \space Os$$.
 
 Givex $x \in Os$, we define the conjugate Os $x \mapsto x^* = 2 <x, 1> - x$;
 
@@ -87,7 +88,8 @@ psi_2^(a) \in reals
 
 e_(a) type 2 spinor basis of Os a=0, 1, ..., 7
 
-We restrict SO(4,4) transformations to the subgroup preserving
+We restrict Spin(4,4) ( = SO(4,4) cover ) transformations to the subgroup preserving
+both $\mathbb{R}$  and Im Os.
 
 
 
