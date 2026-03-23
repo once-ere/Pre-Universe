@@ -1,6 +1,6 @@
 # Pre-Universe
 
-[Whenever possible, we try to follow ROBERT L. BRYANT , 'SUBMANIFOLDS AND SPECIAL STRUCTURES ON THE OCTONIANS', J. DIFFERENTIAL GEOMETRY 17 (1982) 185-232; all ERRORS ARE DEFINITELY due to ME]
+[Whenever possible, we try to follow ROBERT L. BRYANT , 'SUBMANIFOLDS AND SPECIAL STRUCTURES ON THE OCTONIANS', J. DIFFERENTIAL GEOMETRY 17 (1982) 185-232; any ERRORS ARE DEFINITELY due to ME]
 
 
 Pre-gravity means :
@@ -36,7 +36,7 @@ We define the orthogonal compliment of 1 to be Im Os \in Os.
 It is a
 proper subspace and we have Os = R \times Im Os. 
 
-Givex x \in Os, we define the conjugate Os \contains x^* = 2 <x, 1> - x;
+Givex x \in Os, we define the conjugate Os \contained-in x^* = 2 <x, 1> - x;
 
 We denote <x, 1> by Re x 
 
@@ -45,6 +45,8 @@ and (x - Re x) by Im x.
 Clearly x \in Im Os if and only if x^* = -x or x = Im x or Re x = 0.
 
 
+
+We employ:
 
 the 'Minkowski' vector realization of x \in Os as 
 x = x^A e_A,  A=0, 1, ..., 7 
