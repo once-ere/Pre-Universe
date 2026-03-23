@@ -1,6 +1,30 @@
 # Pre-Universe
-Quantum description of Pre-gravity, Pre-Big-Bang, with 3-Generations of Einstein-Rosen 2-Plane-Bridges
+Pre-gravity means Quantum description of Pre-Big-Bang,
+constructed using 
+the (pseudo-) Clifford algebra C_8 with 16-component basic spinor representation 
+psi={psi_1,psi_2};
+and constructed using triality of the split octonion algebra Os;
+the 'Minkowski' vector realization of x \in Os as 
+x = x^A e_A,  A=0, 1, ..., 7 
+x^A \in reals
+e_A vector basis of Os A=0, 1, ..., 7
+< e_A, e_B > = g_{A,B} = diag(1,1,1,1,-1,-1,-1,-1)
+non-associative multiplication e_A, e_B = e_C m^C_{A, B}
 
+the 'type 1' spinor realization of psi1 \in Os as 
+psi1 = psi1^a e_a,  a=0, 1, ..., 7 
+psi1^a \in reals
+e_a type 1 spinor basis of Os a=0, 1, ..., 7
+
+
+
+
+
+
+
+
+, with 3-Generations of Einstein-R Ososen 2-Plane-Bridges
+ \in Os
 The origin of this calculation has its roots in "A Remarkable Representation of the 3+2 de Sitter Group" by P.A.M.Dirac, J.Math.Phys.4,901\[Dash]909 (1963). 
 
 The term "reduced Brauer\[Dash]Weyl generators",  refers to a specific set of irreducible generators for certain complex Clifford algebras, particularly in the context of mathematical physics and the study of Dirac spinors. These generators were introduced by E.A. Lord (E. A. Lord. "The Dirac spinor in six dimensions". Mathematical Proceedings of the Cambridge Philosophical Society, vol. 64, pp. 765\[Dash]778, 1968) and are described as "reduced" because they form an irreducible representation of the Clifford algebra   Subscript[\[ScriptCapitalC], 2 n]  from   Subscript[\[ScriptCapitalC], 2 (n-1)] .
