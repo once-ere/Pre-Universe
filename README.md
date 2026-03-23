@@ -33,8 +33,6 @@ non-degenerate indefinite inner product
 
 $$< , > : Os \times Os \mapsto \mathbb{R}$$
 
-< , > : Os X Os \mapsto R ; $Os\times Os$
-
 <1, 1> = 1;
 
 with a non-associative multiplication $Os \times Os \mapsto Os$   ;
