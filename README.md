@@ -31,13 +31,13 @@ split octonion inner product algebra Os :
 
 non-degenerate indefinite inner product
 
-$$< , > : Os \times Os \mapsto \mathbb{R} ; $Os\times Os$$
+$$< , > : Os \times Os \mapsto \mathbb{R}$$
 
 < , > : Os X Os \mapsto R ; $Os\times Os$
 
 <1, 1> = 1;
 
-with a non-associative multiplication $Os \times Os \mapsto Os$   $Os\times Os$  ;
+with a non-associative multiplication $Os \times Os \mapsto Os$   ;
 
 for all x, y \in Os
 < x y,  x y > =  <x, x> <y, y> 
