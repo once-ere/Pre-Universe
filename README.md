@@ -1,21 +1,28 @@
 # Pre-Universe
-Pre-gravity means Quantum description of Pre-Big-Bang,
+Pre-gravity means :
+
+Quantum description of Pre-Big-Bang,
 constructed using 
 the (pseudo-) Clifford algebra C_8 with 16-component basic spinor representation 
 psi={psi_1,psi_2};
+
 and constructed using triality of the split octonion algebra Os;
 the 'Minkowski' vector realization of x \in Os as 
 x = x^A e_A,  A=0, 1, ..., 7 
 x^A \in reals
 e_A vector basis of Os A=0, 1, ..., 7
 < e_A, e_B > = g_{A,B} = diag(1,1,1,1,-1,-1,-1,-1)
-non-associative multiplication e_A, e_B = e_C m^C_{A, B}
+non-associative multiplication e_A, e_B = e_C m^C_{A, B};
 
 the 'type 1' spinor realization of psi1 \in Os as 
 psi1 = psi1^a e_a,  a=0, 1, ..., 7 
 psi1^a \in reals
 e_a type 1 spinor basis of Os a=0, 1, ..., 7
 
+the 'type 2' spinor realization of psi2 \in Os as 
+psi2 = psi1^(a) e_(a),  a=0, 1, ..., 7 
+psi2^(a) \in reals
+e_(a) type 2 spinor basis of Os a=0, 1, ..., 7
 
 
 
