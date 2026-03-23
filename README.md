@@ -27,7 +27,7 @@ Recall:
 properties of the
 split octonion inner product algebra Os :
 
-1 \in Os;
+$$1 \in Os$$;
 
 non-degenerate indefinite inner product
 
