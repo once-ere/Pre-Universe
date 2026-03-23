@@ -7,12 +7,15 @@ Pre-gravity means :
 
 Quantum description of Pre-Big-Bang,
 constructed using 
-the (pseudo-) Clifford algebra C_8 with 16-component basic spinor representation 
+the (pseudo-) Clifford algebra C_8, with 16-component basic spinor representation ,
+and representation matrices acting on 
 psi={psi_1,psi_2};
 
-and constructed using triality of the inner product algebra Os.
+Quantum description of Pre-Big-Bang also constructed using triality of the inner product algebra Os.
 
-Recall, properties of the
+Recall:
+
+properties of the
 split octonion inner product algebra Os 
 
 with 1 \in Os;
