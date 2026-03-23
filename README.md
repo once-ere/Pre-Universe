@@ -10,6 +10,12 @@ constructed using
 the (pseudo-) Clifford algebra C_8, with 16-component basic spinor representation ,
 and representation matrices acting on 
 
+$psi1\times psi2$
+
+psi1 = psi_1^a ,  a = 0, 1, ..., 7  
+
+psi2 = psi_2^(a),  a = 0, 1, ..., 7  
+
 psi={psi_1^a,psi_2^(a)} ,  a = 0, 1, ..., 7  
 
 [see split octonions, below];
@@ -24,11 +30,14 @@ split octonion inner product algebra Os :
 1 \in Os;
 
 non-degenerate indefinite inner product
-< , > : Os X Os \mapsto R ;
+
+$$< , > : Os \times Os \mapsto \mathbb{R} ; $Os\times Os$$
+
+< , > : Os X Os \mapsto R ; $Os\times Os$
 
 <1, 1> = 1;
 
-with a non-associative multiplication Os X Os \mapsto Os;
+with a non-associative multiplication $Os \times Os \mapsto Os$   $Os\times Os$  ;
 
 for all x, y \in Os
 < x y,  x y > =  <x, x> <y, y> 
@@ -37,7 +46,7 @@ For convenience's sake we will identify R with the 1-dimensional subalgebra of O
 
 We define the orthogonal compliment of 1 to be Im Os \in Os. 
 It is a
-proper subspace and we have Os = R \times Im Os. 
+proper subspace and we have Os = R \times Im Os. Os = $R\times Im Os$
 
 Givex x \in Os, we define the conjugate Os \contained-in x^* = 2 <x, 1> - x;
 
