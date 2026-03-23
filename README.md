@@ -33,7 +33,8 @@ non-degenerate indefinite inner product
 
 $$< , > : Os \times Os \mapsto \mathbb{R}$$
 
-$$\forall x, y \in Os , < x y,  x y > =  <x, x> <y, y> $$
+$$\forall x, y \in Os, $$
+$$< x y,  x y > =  <x, x> <y, y> $$
 
 
 <1, 1> = 1;
