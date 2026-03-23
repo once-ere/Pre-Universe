@@ -9,7 +9,7 @@ Quantum description of Pre-Big-Bang,
 constructed using 
 the (pseudo-) Clifford algebra C_8, with 16-component basic spinor representation ,
 and representation matrices acting on 
-psi={psi_1,psi_2};
+psi={psi_1^a,psi_2^(a)} ,  a = 0, 1, ..., 7  [see split octonions, below];
 
 Quantum description of Pre-Big-Bang also constructed using triality of the inner product algebra Os.
 
@@ -61,17 +61,17 @@ non-associative multiplication e_A, e_B = e_C m^C_{A, B};
 
 the 'type 1' spinor realization of psi1 \in Os as 
 
-psi1 = psi1^a e_a,  a=0, 1, ..., 7 
+psi_1 = psi_1^a e_a,  a=0, 1, ..., 7 
 
-psi1^a \in reals
+psi_1^a \in reals
 
 e_a type 1 spinor basis of Os a=0, 1, ..., 7
 
 the 'type 2' spinor realization of psi2 \in Os as 
 
-psi2 = psi1^(a) e_(a),  a=0, 1, ..., 7 
+psi_2 = psi_2^(a) e_(a),  a=0, 1, ..., 7 
 
-psi2^(a) \in reals
+psi_2^(a) \in reals
 
 e_(a) type 2 spinor basis of Os a=0, 1, ..., 7
 
