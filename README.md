@@ -114,11 +114,11 @@ the $e_a, \space a=0, 1, ..., 7$ comprise a type 1 spinor basis of Os.
 
 The 'type 2' spinor realization of $\Psi_2 \in Os$ is 
 
-$\Psi_2 = \psi_2^{(a)} \space e_{a)},  a=0, 1, ..., 7$
+$\Psi_2 = \psi_2^{(a)} \space e_{(a)}, \space (a) \to a=0, 1, ..., 7$, where
 
-$\psi_2^{(a)} \in \mathbb{R},  (a) \to a=0, 1, ..., 7$
+$\psi_2^{(a)} \in \mathbb{R}, \space (a) \to a=0, 1, ..., 7$,
 
-$e_{(a)}, \space (a) \to a=0, 1, ..., 7$ comprise a type 2 spinor basis of Os.
+and the $e_{(a)}, \space (a) = (0), (1), ..., (7)$ comprise a type 2 spinor basis of Os.
 
 We restrict Spin(4,4) ( = $\overline{ SO(4,4) }$  ) transformations to the subgroups preserving
 both $\mathbb{R}$  and Im Os,
