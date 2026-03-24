@@ -53,6 +53,33 @@ formed from an irreducible representation of the $e8_A$,
 are the infinitesimal generators of a
 $16 = 2^{8/2}$-dimensional ,  reducible, representation of $\overline{SO(4,4;\mathbb{R})}$.
 
+
+# Rotated Dynkin Diagram for D₄ [SO(8) / Spin(8)]
+
+                        (Type 1 Spinor)
+                               O
+                              /
+                             /
+                            /
+                           /
+                          /
+        O --------------- O  (Adjoint)
+     (Vector)              \
+                            \
+                             \
+                              \
+                               \
+                                O
+                         (Type 2 Spinor)
+
+
+### Node Legend:
+* **Central Node:** Adjoint representation
+* **Left Node (180°):** Vector representation 
+* **Top-Right Node (60°):** Type 1 Spinor (left-handed spinor) representation
+* **Bottom-Right Node (-60°):** Type 2 Spinor (right-handed spinor) representation
+
+
 We represent spinors in this
 16-component basic spinor representation
 as
