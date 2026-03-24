@@ -2,17 +2,19 @@
 
 [Whenever possible, we try to follow ROBERT L. BRYANT , 'SUBMANIFOLDS AND SPECIAL STRUCTURES ON THE OCTONIANS', J. DIFFERENTIAL GEOMETRY 17 (1982) 185-232; any ERRORS ARE DEFINITELY due to ME]
 
+Please be aware of typos; latex inside markdown is obviously not my forte.
+
 
 Pre-gravity means :
 
 Quantum description of Pre-Big-Bang,
 constructed using 
 the (pseudo-) Clifford algebra C_8, with 16-component basic spinor representation ,
-and representation matrices acting on $\psi \in \mathbb{R}^{16} = \{\psi_1,\psi_2\}$ realized according to
+and representation matrices acting on $\psi \in \mathbb{R}^{16} = \\{\psi_1,\psi_2\\}$ realized according to
 
-$$\psi_1\in \mathbb{R}^{8}  \oplus \psi_2\in \mathbb{R}^{8}$$
+$$\psi \in \mathbb{R}^{16} = \\{\psi_1\in \mathbb{R}^{8}  \oplus \psi_2\in \mathbb{R}^{8}\\}$$
 
-$$\psi_11 = \psi_1^a ,  a = 0, 1, ..., 7$$
+$$\psi_1 = \psi_1^a ,  a = 0, 1, ..., 7$$
 
 $$\psi_2 = \psi_2^({a)},  (a) \to a = 0, 1, ..., 7$$
 
