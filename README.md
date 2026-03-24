@@ -9,8 +9,10 @@ $\mathbb{R}^{4,4}$
 denote a real, eight-dimensional, pseudo-Euclidean vector space
 endowed with  the $SO(4,4;\mathbb{R})$ invariant
 quadratic form
+
 $x0^{2} + x1^{2} + x2^{2} + x3^{2}
 − x4^{2} + x5^{2} + x6^{2} + x7^{2}$,
+
 which
 defines the standard pseudo-Euclidean norm on $\mathbb{R}^{4,4}$ and associated indefinite
 inner product.
@@ -22,7 +24,7 @@ denote the universal cover  of $SO(4,4;\mathbb{R})$
 “left-handed” and
 “right-handed” spin(8) spinors have
 $\overline{SO(4,4;\mathbb{R})}$ counterparts
-that are denoted as $\psi_1$ and $\psi_2$
+that are denoted as $\psi_1$ and $\psi_2$ in this repo.
 
 
 
