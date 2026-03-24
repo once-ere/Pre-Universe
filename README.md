@@ -8,7 +8,7 @@ Pre-gravity means :
 Quantum description of Pre-Big-Bang,
 constructed using 
 the (pseudo-) Clifford algebra C_8, with 16-component basic spinor representation ,
-and representation matrices acting on 
+and representation matrices acting on $psi=psi16 \in \mathbb{R}^{16}$ realized according to
 
 $$psi1\in \mathbb{R}^{8}  \oplus  psi2\in \mathbb{R}^{8}$$
 
