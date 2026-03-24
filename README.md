@@ -5,9 +5,9 @@
 Please be aware of typos; latex inside markdown is obviously not my forte.
 
 
-Pre-gravity means :
+In this draft, Pre-gravity means :
 
-Quantum description of Pre-Big-Bang,
+consider a possible? 'Quantum description' of Pre-Big-Bang,
 constructed using 
 the (pseudo-) Clifford algebra C_8, with 
 
@@ -24,11 +24,9 @@ $$\psi_1 = \psi_1^a ,  a = 0, 1, ..., 7$$
 
 $$\psi_2 = \psi_2^{(a)},  (a) \to a = 0, 1, ..., 7$$
 
-$$\psi=\{\psi_1^a,\psi_2^{(a)}\} , a = 0, 1, ..., 7$$  
-
 [see split octonions, below];
 
-Quantum description of Pre-Big-Bang is also constructed using the split octonion inner product algebra Os  and'triality' .
+This study of a 'Quantum description' of Pre-Big-Bang is also constructed using the split octonion inner product algebra Os  and'triality' .
 
 Recall:
 
@@ -63,38 +61,42 @@ We denote <x, 1> by Re x
 
 and (x - Re x) by Im x. 
 
-Clearly x \in Im Os if and only if x^* = -x or x = Im x or Re x = 0.
+Clearly $x \in Im Os$ if and only if $x^* = -x$ or x = Im x or Re x = 0.
 
 
 
 We employ:
 
-the 'Minkowski' vector realization of x \in Os as 
-x = x^A e_A,  A=0, 1, ..., 7 
+a 'Minkowski' vector realization of $x \in Os$ as 
+$x = x^A e_A,  A=0, 1, ..., 7$ where
 
-x^A \in reals
+$x^A \in \mathbb{R}$,
 
-e_A vector basis of Os A=0, 1, ..., 7
+the $e_A, A=0, 1, ..., 7, \space e_0 = 1$ comprise a Minkowski vector basis of Os
+(equivalent [by Cartan's triality] to each of the two independent spinor bases; 
+explicit realizations
+are constructed in this repo's files),
 
-< e_A, e_B > = g_{A,B} = diag(1,1,1,1,-1,-1,-1,-1)
+$< e_A, e_B > = g_{A,B} = diag(1,1,1,1,-1,-1,-1,-1)$,
 
-non-associative multiplication e_A, e_B = e_C m^C_{A, B};
+non-associative multiplication 
+$e_A, e_B = e_C \space m^C_{A, B}$;
 
-the 'type 1' spinor realization of psi1 \in Os as 
+the 'type 1' spinor realization of $\Psi_1 \in Os$ as 
 
-psi_1 = psi_1^a e_a,  a=0, 1, ..., 7 
+$\Psi_1 = \psi_1^a \space e_a,  a=0, 1, ..., 7 $
 
-psi_1^a \in reals
+$\psi_1^a \in \mathbb{R}$
 
-e_a type 1 spinor basis of Os a=0, 1, ..., 7
+$e_a, \space a=0, 1, ..., 7$ comprise a type 1 spinor basis of Os
 
-the 'type 2' spinor realization of psi2 \in Os as 
+the 'type 2' spinor realization of $\Psi_2 \in Os as 
 
-psi_2 = psi_2^(a) e_(a),  a=0, 1, ..., 7 
+$\Psi_2 = \psi_2^(a) \space e_(a),  a=0, 1, ..., 7$
 
-psi_2^(a) \in reals
+$\psi_2^(a) \in \mathbb{R},  (a) \to a=0, 1, ..., 7$
 
-e_(a) type 2 spinor basis of Os a=0, 1, ..., 7
+$e_(a), \space (a) \to a=0, 1, ..., 7$ comprise a type 2 spinor basis of Os.
 
 We restrict Spin(4,4) ( = SO(4,4) cover ) transformations to the subgroup preserving
 both $\mathbb{R}$  and Im Os.
