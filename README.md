@@ -11,7 +11,7 @@ endowed with  the $SO(4,4;\mathbb{R})$ invariant
 quadratic form
 
 $x0^{2} + x1^{2} + x2^{2} + x3^{2}
-− x4^{2} + x5^{2} + x6^{2} + x7^{2}$,
+− x4^{2} - x5^{2} - x6^{2} - x7^{2}$,
 
 which
 defines the standard pseudo-Euclidean norm on $\mathbb{R}^{4,4}$ and associated indefinite
