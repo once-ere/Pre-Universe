@@ -16,11 +16,11 @@ generators $e8_A, A=0, 1, ..., 7$
 
 satisfy 
 
-$$e8_A e8_B + e8_B e8_A  = I_{16 \times 16} \space g_{A B} , A, B = 0, 1, ..., 7$$;  
+$$e8_A e8_B + e8_B e8_A  = I_{16 \times 16} \space g_{A B} , \space A, B = 0, 1, ..., 7$$;  
 
 $$g_{A B}=diag(1,1,1,1,-1,-1,-1,-1)$$,
 
-$C_8$ admits a 16-component basic spinor representation,
+$C_8$ admits/carries a 16-component basic spinor representation.
 
 We represent spinors in this
 16-component basic spinor representation
@@ -81,14 +81,18 @@ Clearly $x \in Im \space Os$ if and only if $x^* = -x$ or x = Im x or Re x = 0.
 We employ:
 
 a 'Minkowski' vector realization of $x \in Os$ as 
-$x = x^A e_A,  A=0, 1, ..., 7$ where
+$x = x^A e_A,  \space A=0, 1, ..., 7$ where
 
-$x^A \in \mathbb{R}$,
+$x^A \in \mathbb{R}$.
 
-the $e_A, \space A=0, 1, ..., 7, \space e_0 = 1$ comprise a Minkowski vector basis of Os
+The $e_A, \space A=0, 1, ..., 7, \space e_0 = 1$ 
+comprise a Minkowski vector basis of Os
+
 (equivalent [by Cartan's triality] to each of the two independent spinor bases; 
 explicit realizations
 are constructed in this repo's files),
+
+and verify
 
 $< e_A, e_B > = g_{A,B} = diag(1,1,1,1,-1,-1,-1,-1)$,
 
@@ -96,17 +100,17 @@ $< e_A, e_B > = g_{A,B} = diag(1,1,1,1,-1,-1,-1,-1)$,
 Os is endowed with a non-associative multiplication 
 $Os \times Os \mapsto Os$  , which may be defined according to
 
-$e_A, e_B = e_C \space m^C_{A, B}$;
+$e_A, e_B = e_C \space m^C_{A, B}$.
 
-the 'type 1' spinor realization of $\Psi_1 \in Os$ as 
+The 'type 1' spinor realization of $\Psi_1 \in Os$ as 
 
 $\Psi_1 = \psi_1^a \space e_a,  a=0, 1, ..., 7 $
 
 $\psi_1^a \in \mathbb{R}$
 
-$e_a, \space a=0, 1, ..., 7$ comprise a type 1 spinor basis of Os
+The $e_a, \space a=0, 1, ..., 7$ comprise a type 1 spinor basis of Os
 
-the 'type 2' spinor realization of $\Psi_2 \in Os as 
+The 'type 2' spinor realization of $\Psi_2 \in Os is 
 
 $\Psi_2 = \psi_2^(a) \space e_(a),  a=0, 1, ..., 7$
 
@@ -114,8 +118,11 @@ $\psi_2^(a) \in \mathbb{R},  (a) \to a=0, 1, ..., 7$
 
 $e_(a), \space (a) \to a=0, 1, ..., 7$ comprise a type 2 spinor basis of Os.
 
-We restrict Spin(4,4) ( = SO(4,4) cover ) transformations to the subgroup preserving
-both $\mathbb{R}$  and Im Os.
+We restrict Spin(4,4) ( = $\overbar{SO(4,4)}  ) transformations to the subgroups preserving
+both $\mathbb{R}$  and Im Os,
+
+in which case $\Psi_1$  and  $\Psi_2$ transform the same way under 
+'Lorentz' transformations.
 
 
 
