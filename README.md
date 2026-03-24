@@ -118,7 +118,7 @@ $\psi_2^(a) \in \mathbb{R},  (a) \to a=0, 1, ..., 7$
 
 $e_(a), \space (a) \to a=0, 1, ..., 7$ comprise a type 2 spinor basis of Os.
 
-We restrict Spin(4,4) ( = $\overbar{SO(4,4)}  ) transformations to the subgroups preserving
+We restrict Spin(4,4) ( = $\overbar{SO(4,4)}$  ) transformations to the subgroups preserving
 both $\mathbb{R}$  and Im Os,
 
 in which case $\Psi_1$  and  $\Psi_2$ transform the same way under 
