@@ -10,7 +10,7 @@ constructed using
 the (pseudo-) Clifford algebra C_8, with 16-component basic spinor representation ,
 and representation matrices acting on 
 
-$psi1\times psi2$
+$$psi1\in \mathbb{R}^{8}  \oplus  psi2\in \mathbb{R}^{8}$$
 
 psi1 = psi_1^a ,  a = 0, 1, ..., 7  
 
