@@ -12,9 +12,8 @@ constructed using
 the (pseudo-) Clifford algebra C_8, with 
 
 generators $e8_A, A=0, 1, ..., 7$
-satisfying $e8_A e8_B + e8_B e8_A  = I_{16 \times 16} diag(1,1,1,1,-1,-1,-1,-1) , A, B = 0, 1, ..., 7$
 
-satisfying $e8_A e8_B + e8_B e8_A  = I_{16 \times 16} g_{A B} , A, B = 0, 1, ..., 7;  g_{A B}=diag(1,1,1,1,-1,-1,-1,-1)$
+satisfying $e8_A e8_B + e8_B e8_A  = I_{16 \times 16} g_{A B} , A, B = 0, 1, ..., 7;  g_{A B}=diag(1,1,1,1,-1,-1,-1,-1)$,
 
 and with 16-component basic spinor representation ,
 and with representation matrices acting on $\psi \in \mathbb{R}^{16} = \\{\psi_1,\psi_2\\}$ realized according to
