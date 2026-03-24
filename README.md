@@ -7,7 +7,7 @@ Please be aware of typos; latex inside markdown is obviously not my forte.
 
 In this draft, Pre-gravity means :
 
-consider a possible? 'Quantum description' of Pre-Big-Bang,
+consider a possible? 'Quantum description' of a Pre-Big-Bang spacetime,
 constructed using 
 
 the (pseudo-) Clifford algebra $C_8$, whose 
