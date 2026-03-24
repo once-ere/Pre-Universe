@@ -100,15 +100,17 @@ $< e_A, e_B > = g_{A,B} = diag(1,1,1,1,-1,-1,-1,-1)$,
 Os is endowed with a non-associative multiplication 
 $Os \times Os \mapsto Os$  , which may be defined according to
 
-$e_A \space e_B = e_C \space m^C_{A, B}$.
+$e_A \space e_B = e_C \space m^C_{A \space B}$.
 
-The 'type 1' spinor realization of $\Psi_1 \in Os$ as 
+Our 'type 1' spinor basis of Os
 
-$\Psi_1 = \psi_1^a \space e_a,  a=0, 1, ..., 7 $
+and a  realization of type 1 spinors $\Psi_1 \in Os$ is 
 
-$\psi_1^a \in \mathbb{R}$
+$\Psi_1 = \psi_1^a \space e_a,  a=0, 1, ..., 7 $, where
 
-The $e_a, \space a=0, 1, ..., 7$ comprise a type 1 spinor basis of Os
+$\psi_1^a \in \mathbb{R}$, and
+
+the $e_a, \space a=0, 1, ..., 7$ comprise a type 1 spinor basis of Os
 
 The 'type 2' spinor realization of $\Psi_2 \in Os is 
 
