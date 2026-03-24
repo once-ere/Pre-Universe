@@ -100,7 +100,7 @@ $< e_A, e_B > = g_{A,B} = diag(1,1,1,1,-1,-1,-1,-1)$,
 Os is endowed with a non-associative multiplication 
 $Os \times Os \mapsto Os$  , which may be defined according to
 
-$e_A, e_B = e_C \space m^C_{A, B}$.
+$e_A \space e_B = e_C \space m^C_{A, B}$.
 
 The 'type 1' spinor realization of $\Psi_1 \in Os$ as 
 
