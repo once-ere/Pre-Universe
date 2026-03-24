@@ -8,15 +8,15 @@ Pre-gravity means :
 Quantum description of Pre-Big-Bang,
 constructed using 
 the (pseudo-) Clifford algebra C_8, with 16-component basic spinor representation ,
-and representation matrices acting on $\psi \in \mathbb{R}^{16} = {\psi_1,\psi_2}$ realized according to
+and representation matrices acting on $\psi \in \mathbb{R}^{16} = \{\psi_1,\psi_2\}$ realized according to
 
-$$psi1\in \mathbb{R}^{8}  \oplus  psi2\in \mathbb{R}^{8}$$
+$$\psi_1\in \mathbb{R}^{8}  \oplus \psi_2\in \mathbb{R}^{8}$$
 
-psi1 = psi_1^a ,  a = 0, 1, ..., 7  
+$$\psi_11 = \psi_1^a ,  a = 0, 1, ..., 7$$
 
-psi2 = psi_2^(a),  a = 0, 1, ..., 7  
+$$\psi_2 = \psi_2^({a)},  (a) \to a = 0, 1, ..., 7$$
 
-psi={psi_1^a,psi_2^(a)} ,  a = 0, 1, ..., 7  
+$$\psi=\{\psi_1^a,\psi_2^{(a)}\} , a = 0, 1, ..., 7$$  
 
 [see split octonions, below];
 
