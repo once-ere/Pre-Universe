@@ -26,18 +26,21 @@ $$\psi_2 = \psi_2^{(a)},  (a) \to a = 0, 1, ..., 7$$
 
 [see split octonions, below];
 
-This study of a 'Quantum description' of Pre-Big-Bang is also constructed using the split octonion inner product algebra Os  and'triality' .
+This study of a 'Quantum description' of Pre-Big-Bang is also constructed using the split octonion inner product algebra Os  and  Cartan's 'triality' .
 
 Recall:
 
-properties of the
-split octonion inner product algebra Os :
+several properties of the
+split octonion inner product algebra Os are::
 
 $$1 \in Os$$;
 
 non-degenerate indefinite inner product
 
 $$< , > : Os \times Os \mapsto \mathbb{R}$$
+
+and a multiplication $Os \times Os \mapsto Os$
+with unit $1 \in Os$ such that 
 
 $$\forall x, y \in Os, $$
 < x y,  x y > =  <x, x> <y, y>.
@@ -61,7 +64,7 @@ We denote <x, 1> by Re x
 
 and (x - Re x) by Im x. 
 
-Clearly $x \in Im Os$ if and only if $x^* = -x$ or x = Im x or Re x = 0.
+Clearly $x \in Im \space Os$ if and only if $x^* = -x$ or x = Im x or Re x = 0.
 
 
 
@@ -72,7 +75,7 @@ $x = x^A e_A,  A=0, 1, ..., 7$ where
 
 $x^A \in \mathbb{R}$,
 
-the $e_A, A=0, 1, ..., 7, \space e_0 = 1$ comprise a Minkowski vector basis of Os
+the $e_A, \space A=0, 1, ..., 7, \space e_0 = 1$ comprise a Minkowski vector basis of Os
 (equivalent [by Cartan's triality] to each of the two independent spinor bases; 
 explicit realizations
 are constructed in this repo's files),
