@@ -9,19 +9,20 @@ In this draft, Pre-gravity means :
 
 consider a possible? 'Quantum description' of Pre-Big-Bang,
 constructed using 
-the (pseudo-) Clifford algebra C_8, with 
+
+the (pseudo-) Clifford algebra $C_8$, whose 
 
 generators $e8_A, A=0, 1, ..., 7$
 
-satisfying 
+satisfy 
 
 $$e8_A e8_B + e8_B e8_A  = I_{16 \times 16} \space g_{A B} , A, B = 0, 1, ..., 7$$;  
 
 $$g_{A B}=diag(1,1,1,1,-1,-1,-1,-1)$$,
 
-and with the 16-component basic spinor representation,
+$C_8$ admits a 16-component basic spinor representation,
 
-We represent spinors in the
+We represent spinors in this
 16-component basic spinor representation
 as
 
