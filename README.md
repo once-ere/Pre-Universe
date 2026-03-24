@@ -51,7 +51,7 @@ $$g_{A B}=diag(1,1,1,1,-1,-1,-1,-1)$$.
 The (scaled) skew-symmetrized products of the $e8_A$,
 formed from an irreducible representation of the $e8_A$, 
 are the infinitesimal generators of a
-$16 = 2^{8/2}-dimensional ,  reducible, representation of SO(4, 4; \mathbb{R})$.
+$16 = 2^{8/2}$-dimensional ,  reducible, representation of $\overline{SO(4,4;\mathbb{R})}$.
 
 $C_8$ admits/carries a 16-component basic spinor representation.
 
