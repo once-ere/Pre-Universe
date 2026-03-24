@@ -54,9 +54,9 @@ are the infinitesimal generators of a
 $16 = 2^{8/2}$-dimensional ,  reducible, representation of $\overline{SO(4,4;\mathbb{R})}$.
 
 
-# Rotated Dynkin Diagram for D₄ [SO(8) / Spin(8)]
+# Dynkin Diagram for $D_4$ [SO(8) / Spin(8)]
 
-                        (Type 1 Spinor)
+                        (Type 1, left-handed, Spinor)
                                O
                               /
                              /
@@ -70,7 +70,7 @@ $16 = 2^{8/2}$-dimensional ,  reducible, representation of $\overline{SO(4,4;\ma
                               \
                                \
                                 O
-                         (Type 2 Spinor)
+                         (Type 2, right-handed, Spinor)
 
 
 ### Node Legend:
