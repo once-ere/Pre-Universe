@@ -32,13 +32,13 @@ that are denoted as $\psi_1$ and $\psi_2$ in this repo.
 
 <!-- ${\Large ***In this draft the phrase  'Pre-Universe' is intended to intimate***}$  -->
 
-<span style="font-size: 30px;">***In this draft the phrase  'Pre-Universe' is intended to intimate***</span>
+<span style="font-size: 30px;">***In this draft the phrase  'Pre-Universe'***</span>
 
 <!--<span style="font-size: 2.5em;">***In this draft the phrase  'Pre-Universe' is intended to intimate***</span>-->
 
 
 
-a conjectured 'Quantum construction' of a Pre-Big-Bang ***spacetime***,
+describes a conjectured 'Quantum construction' of a Pre-Big-Bang ***spacetime***,
 
 built using 
 
