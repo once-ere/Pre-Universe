@@ -191,6 +191,38 @@ and
 
 verifying < u, u > = 1.
 
+$$\begin{array}{ccccccccc}
+ \text{A/B} & \text{eA}(0) & \text{eA}(1) & \text{eA}(2) &
+   \text{eA}(3) & \text{eA}(4) & \text{eA}(5) &
+   \text{eA}(6) & \text{eA}(7) \\
+ \text{eA}(0) & \text{eA}(0) & \text{eA}(1) & \text{eA}(2)
+   & \text{eA}(3) & \text{eA}(4) & \text{eA}(5) &
+   \text{eA}(6) & \text{eA}(7) \\
+ \text{eA}(1) & \text{eA}(1) & -\text{eA}(0) &
+   -\text{eA}(3) & \text{eA}(2) & -\text{eA}(5) &
+   \text{eA}(4) & \text{eA}(7) & -\text{eA}(6) \\
+ \text{eA}(2) & \text{eA}(2) & \text{eA}(3) &
+   -\text{eA}(0) & -\text{eA}(1) & -\text{eA}(6) &
+   -\text{eA}(7) & \text{eA}(4) & \text{eA}(5) \\
+ \text{eA}(3) & \text{eA}(3) & -\text{eA}(2) &
+   \text{eA}(1) & -\text{eA}(0) & -\text{eA}(7) &
+   \text{eA}(6) & -\text{eA}(5) & \text{eA}(4) \\
+ \text{eA}(4) & \text{eA}(4) & \text{eA}(5) & \text{eA}(6)
+   & \text{eA}(7) & \text{eA}(0) & \text{eA}(1) &
+   \text{eA}(2) & \text{eA}(3) \\
+ \text{eA}(5) & \text{eA}(5) & -\text{eA}(4) &
+   \text{eA}(7) & -\text{eA}(6) & -\text{eA}(1) &
+   \text{eA}(0) & -\text{eA}(3) & \text{eA}(2) \\
+ \text{eA}(6) & \text{eA}(6) & -\text{eA}(7) &
+   -\text{eA}(4) & \text{eA}(5) & -\text{eA}(2) &
+   \text{eA}(3) & \text{eA}(0) & -\text{eA}(1) \\
+ \text{eA}(7) & \text{eA}(7) & \text{eA}(6) &
+   -\text{eA}(5) & -\text{eA}(4) & -\text{eA}(3) &
+   -\text{eA}(2) & \text{eA}(1) & \text{eA}(0) \\
+\end{array}$$
+
+
+
 Let
 
 $e_a, \space a=0, 1, ..., 7$ comprise a type 1 spinor basis of Os.
