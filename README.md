@@ -156,16 +156,21 @@ and (x - Re x) by Im x.
 Clearly $x \in Im \space Os$ if and only if $x^* = -x$ or x = Im x or Re x = 0.
 
 
+# Let
 
-We employ the following:
+$e_A, \space A=0, 1, ..., 7, 
+comprise a Minkowski vector basis of Os.
 
-a 'Minkowski' vector realization of $x \in Os$ as 
+We are using the convention that 
+
+# $e_0 \space =  \space 1$ 
+
+A 'Minkowski' vector realization of $x \in Os$ is 
+
 $x = x^A e_A,  \space A=0, 1, ..., 7$ where
 
 $x^A \in \mathbb{R}$.
 
-The $e_A, \space A=0, 1, ..., 7, \space e_0 = 1$ 
-comprise a Minkowski vector basis of Os
 
 (equivalent [by Cartan's triality] to each of the two independent spinor bases; 
 explicit realizations of equivalence
