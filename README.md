@@ -234,21 +234,23 @@ $$\begin{array}{ccccccccc}
 
 Let
 
-$e_a, \space a=0, 1, ..., 7$ comprise a type 1 spinor basis of Os.
+$e^{1/2}_a, \space a=0, 1, ..., 7$ comprise a type 1 spinor basis of Os.
 
 A type 1 spinor $\Psi_1 \in Os$ may be realized according to 
 
-$\Psi_1 = \psi_1^a \space e_a,  a = 0, 1, ..., 7 $, where
+$\Psi_1 = \psi_1^a \space e^{1/2}_a,  a = 0, 1, ..., 7 $, where
 
 $\psi_1^a \in \mathbb{R}$.
 
 Similarly, a type 2 spinor $\Psi_2 \in Os$ may be realized according to 
 
-$\Psi_2 = \psi_2^{(a)} \space e_{(a)}, \space (a) = (0), (1), ..., (7)$, where
+$\Psi_2 = \psi_2^{(a)} \space e^{1/2}_{(a)}, \space (a) = (0), (1), ..., (7)$, where
 
 $\psi_2^{(a)} \in \mathbb{R}$, and
 
-and the $e_{(a)}, \space (a) = (0), (1), ..., (7)$ comprise a type 2 spinor basis of Os.
+and the $e^{1/2}_{(a)}, \space (a) = (0), (1), ..., (7)$ comprise a type 2 spinor basis of Os.
+
+
 
 We restrict Spin(4,4) ( = $\overline{ SO(4,4) }$  ) transformations to the subgroups preserving
 both $\mathbb{R}$  and Im Os,
