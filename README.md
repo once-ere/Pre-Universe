@@ -197,15 +197,15 @@ $e_a, \space a=0, 1, ..., 7$ comprise a type 1 spinor basis of Os.
 
 A type 1 spinor $\Psi_1 \in Os$ may be realized according to 
 
-$\Psi_1 = \psi_1^a \space e_a,  a=0, 1, ..., 7 $, where
+$\Psi_1 = \psi_1^a \space e_a,  a = 0, 1, ..., 7 $, where
 
 $\psi_1^a \in \mathbb{R}$.
 
 Similarly, a type 2 spinor $\Psi_2 \in Os$ may be realized according to 
 
-$\Psi_2 = \psi_2^a \space e_a,  a=0, 1, ..., 7 $, where
+$\Psi_2 = \psi_2^{(a)} \space e_{(a)}, \space (a) = (0), (1), ..., (7)$, where
 
-$\psi_2^a \in \mathbb{R}$, and
+$\psi_2^{(a)} \in \mathbb{R}$, and
 
 and the $e_{(a)}, \space (a) = (0), (1), ..., (7)$ comprise a type 2 spinor basis of Os.
 
@@ -217,7 +217,8 @@ restrict  to   Spin(3,4)
 in which case $\Psi_1$  and  $\Psi_2$ transform the same way under 
 'Lorentz' transformations.
 
-
+For brevity, understanding this restriction,
+$\space (a) = (0), (1), ..., (7)  \space \to a = 0, 1, ..., 7$.
 
 
 
