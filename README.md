@@ -193,7 +193,7 @@ verifying < u, u > = 1.
 
 
 
-# SPLIT OCTONION MULTIPLICATION TABLE
+# SPLIT OCTONION MULTIPLICATION TABLE $e_A \space e_B$
 
 $$\begin{array}{ccccccccc}
  \text{A/B} & \text{eA}(0) & \text{eA}(1) & \text{eA}(2) &
