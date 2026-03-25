@@ -193,8 +193,10 @@ in which case $\Psi_1$  and  $\Psi_2$ transform the same way under
 We are beginning to study 3-Generations of Einstein-Rosen 2-Plane-Bridges
 
 BibTeX:
-@article{Einstein Rosen 1935,author={Einstein,A.and Rosen,N.},title={The Particle Problem in the General Theory of Relativity},journal={Phys.Rev.},volume={48},issue={1},pages={73-- 77},year={1935},publisher={American Physical Society},doi={10.1103/PhysRev.48.73}}
+@article{Einstein Rosen 1935,author={Einstein,A.and Rosen,N.},title={The Particle Problem in the General Theory of Relativity},journal={Phys.Rev.},volume={48},issue={1},pages={73-- 77},year={1935},publisher={American Physical Society},doi={10.1103/PhysRev.48.73}},
 
+for the case of
+Einstein-Rosen 2-Plane-Bridges
 $\in \space Os$
 
 The origin of this calculation has its roots in 
