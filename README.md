@@ -14,12 +14,13 @@ $x0^{2} + x1^{2} + x2^{2} + x3^{2}
 − x4^{2} - x5^{2} - x6^{2} - x7^{2}$,
 
 which
-defines the standard pseudo-Euclidean norm on $\mathbb{R}^{4,4}$ and associated indefinite
+defines the standard pseudo-Euclidean norm on $\mathbb{R}^{4,4}$ and associated non-degenerate indefinite
 inner product.
 
 Let $\overline{SO(4,4;\mathbb{R})}$
 denote the universal cover  of $SO(4,4;\mathbb{R})$.
 
+Spinor notation:
 
 “left-handed” and
 “right-handed” spin(8) spinors have
@@ -27,8 +28,8 @@ $\overline{SO(4,4;\mathbb{R})}$ counterparts
 that are denoted as $\psi_1$ and $\psi_2$ in this repo.
 
 
+{\Large ***In this draft the phrase  'Pre-Universe' is intended to intimate***}
 
-***In this draft the phrase  'Pre-Universe' is intended to intimate***
 
 a conjecture related to a hypothetical 'Quantum construction' of a Pre-Big-Bang ***spacetime***,
 built using 
