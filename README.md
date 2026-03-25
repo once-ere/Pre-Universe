@@ -68,7 +68,7 @@ are the infinitesimal generators of a
 $16 = 2^{8/2}$-dimensional ,  reducible, representation of $\overline{SO(4,4;\mathbb{R})}$.
 
 
-# Dynkin Diagram for $D_4$ [SO(8) / Spin(8)]
+# Dynkin Diagram for $D_4$ [SO(8) ; Spin(8)]
 
                         (left-handed, Type 1 Spinor)
                                O
