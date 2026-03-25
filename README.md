@@ -168,7 +168,7 @@ The $e_A, \space A=0, 1, ..., 7, \space e_0 = 1$
 comprise a Minkowski vector basis of Os
 
 (equivalent [by Cartan's triality] to each of the two independent spinor bases; 
-explicit realizations
+explicit realizations of equivalence
 are constructed in this repo's files),
 
 and verify
