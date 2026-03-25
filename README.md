@@ -214,8 +214,8 @@ both $\mathbb{R}$  and Im Os,
 i.e.,
 restrict  to   Spin(3,4)
 
-in which case $\Psi_1$  and  $\Psi_2$ transform the same way under 
-'Lorentz' transformations.
+in which case $\Psi_1$  and  $\Psi_2$ transform the same way under 'allowed
+Lorentz' transformations.
 
 For brevity, understanding this restriction,
 $\space (a) = (0), (1), ..., (7)  \space \to a = 0, 1, ..., 7$.
