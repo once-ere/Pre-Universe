@@ -65,7 +65,7 @@ $$g_{A B}=diag(1,1,1,1,-1,-1,-1,-1)$$.
 The (scaled) skew-symmetrized products of the $e8_A$,
 formed from an irreducible representation of the $e8_A$, 
 are the infinitesimal generators of a
-$16 = 2^{8/2}$-dimensional ,  reducible, representation of $\overline{SO(4,4;\mathbb{R})}$.
+$16 = 2^{8/2}$-dimensional ,  reducible, basic spinor representation of $\overline{SO(4,4;\mathbb{R})}$.
 
 
 # Dynkin Diagram for $D_4$ [SO(8) ; Spin(8)]
