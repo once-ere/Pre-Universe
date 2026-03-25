@@ -191,7 +191,9 @@ and
 
 verifying < u, u > = 1.
 
-#**SPLIT OCTONION MULTIPLICATION TABLE**
+# **SPLIT OCTONION MULTIPLICATION TABLE**
+
+# SPLIT OCTONION MULTIPLICATION TABLE
 
 $$\begin{array}{ccccccccc}
  \text{A/B} & \text{eA}(0) & \text{eA}(1) & \text{eA}(2) &
