@@ -70,7 +70,7 @@ $16 = 2^{8/2}$-dimensional ,  reducible, representation of $\overline{SO(4,4;\ma
 
 # Dynkin Diagram for $D_4$ [SO(8) / Spin(8)]
 
-                        (Type 1, left-handed, Spinor)
+                        (left-handed, Type 1 Spinor)
                                O
                               /
                              /
@@ -84,7 +84,7 @@ $16 = 2^{8/2}$-dimensional ,  reducible, representation of $\overline{SO(4,4;\ma
                               \
                                \
                                 O
-                         (Type 2, right-handed, Spinor)
+                         (right-handed, Type 2 Spinor)
 
 
 ### Node Legend:
