@@ -200,35 +200,38 @@ verifying < u, u > = 1.
 
 # SPLIT OCTONION MULTIPLICATION TABLE $\space  \space e_A \space e_B$
 
+
 $$\begin{array}{ccccccccc}
- \text{A/B} & \text{eA}(0) & \text{eA}(1) & \text{eA}(2) &
-   \text{eA}(3) & \text{eA}(4) & \text{eA}(5) &
-   \text{eA}(6) & \text{eA}(7) \\
- \text{eA}(0) & \text{eA}(0) & \text{eA}(1) & \text{eA}(2)
-   & \text{eA}(3) & \text{eA}(4) & \text{eA}(5) &
-   \text{eA}(6) & \text{eA}(7) \\
- \text{eA}(1) & \text{eA}(1) & -\text{eA}(0) &
-   -\text{eA}(3) & \text{eA}(2) & -\text{eA}(5) &
-   \text{eA}(4) & \text{eA}(7) & -\text{eA}(6) \\
- \text{eA}(2) & \text{eA}(2) & \text{eA}(3) &
-   -\text{eA}(0) & -\text{eA}(1) & -\text{eA}(6) &
-   -\text{eA}(7) & \text{eA}(4) & \text{eA}(5) \\
- \text{eA}(3) & \text{eA}(3) & -\text{eA}(2) &
-   \text{eA}(1) & -\text{eA}(0) & -\text{eA}(7) &
-   \text{eA}(6) & -\text{eA}(5) & \text{eA}(4) \\
- \text{eA}(4) & \text{eA}(4) & \text{eA}(5) & \text{eA}(6)
-   & \text{eA}(7) & \text{eA}(0) & \text{eA}(1) &
-   \text{eA}(2) & \text{eA}(3) \\
- \text{eA}(5) & \text{eA}(5) & -\text{eA}(4) &
-   \text{eA}(7) & -\text{eA}(6) & -\text{eA}(1) &
-   \text{eA}(0) & -\text{eA}(3) & \text{eA}(2) \\
- \text{eA}(6) & \text{eA}(6) & -\text{eA}(7) &
-   -\text{eA}(4) & \text{eA}(5) & -\text{eA}(2) &
-   \text{eA}(3) & \text{eA}(0) & -\text{eA}(1) \\
- \text{eA}(7) & \text{eA}(7) & \text{eA}(6) &
-   -\text{eA}(5) & -\text{eA}(4) & -\text{eA}(3) &
-   -\text{eA}(2) & \text{eA}(1) & \text{eA}(0) \\
+ \text{A/B} & \text{e}(0) & \text{e}(1) & \text{e}(2) &
+   \text{e}(3) & \text{e}(4) & \text{e}(5) &
+   \text{e}(6) & \text{e}(7) \\
+ \text{e}(0) & \text{e}(0) & \text{e}(1) & \text{e}(2)
+   & \text{e}(3) & \text{e}(4) & \text{e}(5) &
+   \text{e}(6) & \text{e}(7) \\
+ \text{e}(1) & \text{e}(1) & -\text{e}(0) &
+   -\text{e}(3) & \text{e}(2) & -\text{e}(5) &
+   \text{e}(4) & \text{e}(7) & -\text{e}(6) \\
+ \text{e}(2) & \text{e}(2) & \text{e}(3) &
+   -\text{e}(0) & -\text{e}(1) & -\text{e}(6) &
+   -\text{e}(7) & \text{e}(4) & \text{e}(5) \\
+ \text{e}(3) & \text{e}(3) & -\text{e}(2) &
+   \text{e}(1) & -\text{e}(0) & -\text{e}(7) &
+   \text{e}(6) & -\text{e}(5) & \text{e}(4) \\
+ \text{e}(4) & \text{e}(4) & \text{e}(5) & \text{e}(6)
+   & \text{e}(7) & \text{e}(0) & \text{e}(1) &
+   \text{e}(2) & \text{e}(3) \\
+ \text{e}(5) & \text{e}(5) & -\text{e}(4) &
+   \text{e}(7) & -\text{e}(6) & -\text{e}(1) &
+   \text{e}(0) & -\text{e}(3) & \text{e}(2) \\
+ \text{e}(6) & \text{e}(6) & -\text{e}(7) &
+   -\text{e}(4) & \text{e}(5) & -\text{e}(2) &
+   \text{e}(3) & \text{e}(0) & -\text{e}(1) \\
+ \text{e}(7) & \text{e}(7) & \text{e}(6) &
+   -\text{e}(5) & -\text{e}(4) & -\text{e}(3) &
+   -\text{e}(2) & \text{e}(1) & \text{e}(0) \\
 \end{array}$$
+
+
 
 
 
