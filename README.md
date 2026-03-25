@@ -32,12 +32,14 @@ that are denoted as $\psi_1$ and $\psi_2$ in this repo.
 
 <!-- ${\Large ***In this draft the phrase  'Pre-Universe' is intended to intimate***}$  -->
 
-<span style="font-size: 20px;">***In this draft the phrase  'Pre-Universe' is intended to intimate***</span>
-<span style="font-size: 1.5em;">T***In this draft the phrase  'Pre-Universe' is intended to intimate***</span>
+<span style="font-size: 30px;">***In this draft the phrase  'Pre-Universe' is intended to intimate***</span>
+
+<span style="font-size: 2.5em;">T***In this draft the phrase  'Pre-Universe' is intended to intimate***</span>
 
 
 
-a conjecture related to a hypothetical 'Quantum construction' of a Pre-Big-Bang ***spacetime***,
+a conjectured 'Quantum construction' of a Pre-Big-Bang ***spacetime***,
+
 built using 
 
 the split octonion algebra $O_{4,4}$ 
