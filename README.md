@@ -28,7 +28,7 @@ $\overline{SO(4,4;\mathbb{R})}$ counterparts
 that are denoted as $\psi_1$ and $\psi_2$ in this repo.
 
 
-{\Large ***In this draft the phrase  'Pre-Universe' is intended to intimate***}
+${\Large ***In this draft the phrase  'Pre-Universe' is intended to intimate***}$
 
 
 a conjecture related to a hypothetical 'Quantum construction' of a Pre-Big-Bang ***spacetime***,
