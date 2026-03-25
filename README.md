@@ -2,7 +2,9 @@
 
 [Whenever possible, we try to follow ROBERT L. BRYANT , 'SUBMANIFOLDS AND SPECIAL STRUCTURES ON THE OCTONIANS', J. DIFFERENTIAL GEOMETRY 17 (1982) 185-232; any ERRORS ARE DEFINITELY due to ME]
 
-testing (please ignore):  $\bar{SO(4,4;\mathbb{R})}$ $\overline{SO(4,4;\mathbb{R})}$ $\overline{{SO(4,4;\mathbb{R})}}$ $\overline{[SO(4,4;\mathbb{R})]}$ 
+<!-- testing (please ignore):  $\bar{SO(4,4;\mathbb{R})}$ $\overline{SO(4,4;\mathbb{R})}$ $\overline{{SO(4,4;\mathbb{R})}}$ $\overline{[SO(4,4;\mathbb{R})]}$  -->
+
+
 
 Let
 $\mathbb{R}^{4,4}$
@@ -28,7 +30,11 @@ $\overline{SO(4,4;\mathbb{R})}$ counterparts
 that are denoted as $\psi_1$ and $\psi_2$ in this repo.
 
 
-${\Large ***In this draft the phrase  'Pre-Universe' is intended to intimate***}$
+<!-- ${\Large ***In this draft the phrase  'Pre-Universe' is intended to intimate***}$  -->
+
+<span style="font-size: 20px;">***In this draft the phrase  'Pre-Universe' is intended to intimate***</span>
+<span style="font-size: 1.5em;">T***In this draft the phrase  'Pre-Universe' is intended to intimate***</span>
+
 
 
 a conjecture related to a hypothetical 'Quantum construction' of a Pre-Big-Bang ***spacetime***,
