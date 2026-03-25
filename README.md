@@ -158,7 +158,7 @@ Clearly $x \in Im \space Os$ if and only if $x^* = -x$ or x = Im x or Re x = 0.
 
 # Let
 
-$e_A, \space A=0, 1, ..., 7, 
+$e_A, \space A=0, 1, ..., 7$, 
 comprise a Minkowski vector basis of Os.
 
 We are using the convention that 
