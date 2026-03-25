@@ -157,7 +157,7 @@ Clearly $x \in Im \space Os$ if and only if $x^* = -x$ or x = Im x or Re x = 0.
 
 
 
-We employ:
+We employ the following:
 
 a 'Minkowski' vector realization of $x \in Os$ as 
 $x = x^A e_A,  \space A=0, 1, ..., 7$ where
@@ -181,21 +181,31 @@ $Os \times Os \mapsto Os$  , which may be defined according to
 
 $e_A \space e_B = e_C \space m^C_{A \space B}$.
 
-Our 'type 1' spinor basis of Os
+In this repo we construct the multiplication constants $m^C_{A \space B}$
+from 
 
-and a  realization of type 1 spinors $\Psi_1 \in Os$ is 
+[1] our irrep of the Clifford algebra $C_8$ generators ;
+and 
+
+[2] a type 1 spinor u,
+
+verifying < u, u > = 1.
+
+Let
+
+$e_a, \space a=0, 1, ..., 7$ comprise a type 1 spinor basis of Os.
+
+A type 1 spinor $\Psi_1 \in Os$ may be realized according to 
 
 $\Psi_1 = \psi_1^a \space e_a,  a=0, 1, ..., 7 $, where
 
-$\psi_1^a \in \mathbb{R}$, and
+$\psi_1^a \in \mathbb{R}$.
 
-the $e_a, \space a=0, 1, ..., 7$ comprise a type 1 spinor basis of Os.
+Similarly, a type 2 spinor $\Psi_2 \in Os$ may be realized according to 
 
-The 'type 2' spinor realization of $\Psi_2 \in Os$ is 
+$\Psi_2 = \psi_2^a \space e_a,  a=0, 1, ..., 7 $, where
 
-$\Psi_2 = \psi_2^{(a)} \space e_{(a)}, \space (a) \to a=0, 1, ..., 7$, where
-
-$\psi_2^{(a)} \in \mathbb{R}, \space (a) \to a=0, 1, ..., 7$,
+$\psi_2^a \in \mathbb{R}$, and
 
 and the $e_{(a)}, \space (a) = (0), (1), ..., (7)$ comprise a type 2 spinor basis of Os.
 
