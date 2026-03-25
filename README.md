@@ -28,9 +28,9 @@ that are denoted as $\psi_1$ and $\psi_2$ in this repo.
 
 
 
-***In this draft, Pre-Universe means ***
+***In this draft the phrase  'Pre-Universe' is intended to intimate***
 
-we consider a hypothetical 'Quantum construction' of a Pre-Big-Bang ***spacetime***,
+a conjecture related to a hypothetical 'Quantum construction' of a Pre-Big-Bang ***spacetime***,
 built using 
 
 the split octonion algebra $O_{4,4}$ 
@@ -99,7 +99,7 @@ $$\psi_1 = \psi_1^a ,  a = 0, 1, ..., 7$$
 
 $$\psi_2 = \psi_2^{(a)},  (a) \to a = 0, 1, ..., 7$$
 
-[see split octonions, below];
+[see split octonions, $O_{4,4}$ = Os, below];
 
 This study of a possible 'Quantum construction' of a Pre-Big-Bang ***spacetime*** 
 is also carved out using the split octonion inner product algebra 
