@@ -215,15 +215,14 @@ which  are  employed  to write  down the 'Dirac Equation  for the Pre-Universe'
 (\[CapitalPsi]16  AKA 'WAVE FUNCTION OF  the UN-UNIVERSE,' which could possibly be named something more pompous).
 This equation is used to  investigate EINSTEIN AND ROSEN's idea:
 "If one tries to interpret the regular solution (5a)
-in the space of r, 0, ø, t, one arrives at the follow-
-ing conclusion. The four-dimensional space is
+in the space of r, 0, ø, t, one arrives at the following conclusion. The four-dimensional space is
 described mathematically by two congruent
 parts or "sheets," corresponding to u>0 and
 u <0, which are joined by a hyperplane r= 2m or
-u=0 in which g vanishes .2 We call such a con-
-nection between the two sheets a "bridge.""
+u=0 in which g vanishes .2 We call such a connection between the two sheets a "bridge.""
 
 PLEASE IGNORE, FOR NOW, THE FOLLOWING:
+
 Notation:
 $M_{4,4}$ = Minkowski spacetime,  signature = {4,4};
 
