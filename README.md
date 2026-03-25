@@ -28,7 +28,7 @@ that are denoted as $\psi_1$ and $\psi_2$ in this repo.
 
 
 
-In this draft, Pre-Universe means :
+***In this draft, Pre-Universe means ***
 
 we consider a hypothetical 'Quantum construction' of a Pre-Big-Bang ***spacetime***,
 built using 
