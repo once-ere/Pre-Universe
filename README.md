@@ -30,8 +30,8 @@ that are denoted as $\psi_1$ and $\psi_2$ in this repo.
 
 In this draft, Pre-gravity means :
 
-we consider a (possible?) 'Quantum description' of a Pre-Big-Bang ***spacetime***,
-constructed using 
+we consider a (possible?) 'Quantum construction' of a Pre-Big-Bang ***spacetime***,
+built using 
 
 the (pseudo-) Clifford algebra $C_8$
 (possessing the multiplicative identity id)
@@ -97,7 +97,8 @@ $$\psi_2 = \psi_2^{(a)},  (a) \to a = 0, 1, ..., 7$$
 
 [see split octonions, below];
 
-This study of a 'Quantum description' of Pre-Big-Bang is also constructed using the split octonion inner product algebra Os  and  Cartan's 'triality' .
+This study of a possible 'Quantum construction' of a Pre-Big-Bang ***spacetime*** 
+is also carved out using the split octonion inner product algebra Os  and  Cartan's 'triality' .
 
 Recall:
 
