@@ -182,6 +182,8 @@ and the $e_{(a)}, \space (a) = (0), (1), ..., (7)$ comprise a type 2 spinor basi
 
 We restrict Spin(4,4) ( = $\overline{ SO(4,4) }$  ) transformations to the subgroups preserving
 both $\mathbb{R}$  and Im Os,
+i.e.,
+restrict  to   Spin(3,4)
 
 in which case $\Psi_1$  and  $\Psi_2$ transform the same way under 
 'Lorentz' transformations.
@@ -221,13 +223,16 @@ u <0, which are joined by a hyperplane r= 2m or
 u=0 in which g vanishes .2 We call such a con-
 nection between the two sheets a "bridge.""
 
-
+PLEASE IGNORE, FOR NOW, THE FOLLOWING:
 Notation:
-Subscript[M, 4,4]=Minkowski spacetime,  signature = {4,4}
-Subscript[\[DoubleStruckCapitalO], 4,4]=split octonion algebra 
+$M_{4,4}$ = Minkowski spacetime,  signature = {4,4};
+
+$O_{4,4}$ = Os =split octonion algebra;
+
 with  vector  and spinor bases:
 o\[Element]Subscript[\[DoubleStruckCapitalO], 4,4]; o =Subscript[eA, j] o^j=Subscript[ea\[Psi]1, j] o\[Psi]1^j=Subscript[ea\[Psi]2, j] (o\[Psi]2^j)   [Cartan's   triality]
-=Subscript[\[Psi]1, j] ea^j=Subscript[ea, j] (\[Psi]2^j)  [restrict  to   Spin(3,4)]
+=Subscript[\[Psi]1, j] ea^j=Subscript[ea, j] (\[Psi]2^j)  [restrict  to   Spin(3,4)];
+
 <Subscript[ea, a],Subscript[ea, b]> = Subscript[\[Sigma], ab]
 <Subscript[eA, A],Subscript[eA, B]> = Subscript[\[Eta], AB]
 {X,EA}\[Element]Subscript[M, 4,4]\[CircleTimes]Subscript[\[DoubleStruckCapitalO], 4,4]
