@@ -202,33 +202,22 @@ verifying < u, u > = 1.
 
 
 $$\begin{array}{ccccccccc}
- \text{A/B} & \text{e}(0) & \text{e}(1) & \text{e}(2) &
-   \text{e}(3) & \text{e}(4) & \text{e}(5) &
-   \text{e}(6) & \text{e}(7) \\
- \text{e}(0) & \text{e}(0) & \text{e}(1) & \text{e}(2)
-   & \text{e}(3) & \text{e}(4) & \text{e}(5) &
-   \text{e}(6) & \text{e}(7) \\
- \text{e}(1) & \text{e}(1) & -\text{e}(0) &
-   -\text{e}(3) & \text{e}(2) & -\text{e}(5) &
-   \text{e}(4) & \text{e}(7) & -\text{e}(6) \\
- \text{e}(2) & \text{e}(2) & \text{e}(3) &
-   -\text{e}(0) & -\text{e}(1) & -\text{e}(6) &
-   -\text{e}(7) & \text{e}(4) & \text{e}(5) \\
- \text{e}(3) & \text{e}(3) & -\text{e}(2) &
-   \text{e}(1) & -\text{e}(0) & -\text{e}(7) &
-   \text{e}(6) & -\text{e}(5) & \text{e}(4) \\
- \text{e}(4) & \text{e}(4) & \text{e}(5) & \text{e}(6)
-   & \text{e}(7) & \text{e}(0) & \text{e}(1) &
-   \text{e}(2) & \text{e}(3) \\
- \text{e}(5) & \text{e}(5) & -\text{e}(4) &
-   \text{e}(7) & -\text{e}(6) & -\text{e}(1) &
-   \text{e}(0) & -\text{e}(3) & \text{e}(2) \\
- \text{e}(6) & \text{e}(6) & -\text{e}(7) &
-   -\text{e}(4) & \text{e}(5) & -\text{e}(2) &
-   \text{e}(3) & \text{e}(0) & -\text{e}(1) \\
- \text{e}(7) & \text{e}(7) & \text{e}(6) &
-   -\text{e}(5) & -\text{e}(4) & -\text{e}(3) &
-   -\text{e}(2) & \text{e}(1) & \text{e}(0) \\
+ \text{A/B} & e_0 & e_1 & e_2 & e_3 & e_4 & e_5 & e_6 &
+   e_7 \\
+ e_0 & e_0 & e_1 & e_2 & e_3 & e_4 & e_5 & e_6 & e_7 \\
+ e_1 & e_1 & -e_0 & -e_3 & e_2 & -e_5 & e_4 & e_7 & -e_6
+   \\
+ e_2 & e_2 & e_3 & -e_0 & -e_1 & -e_6 & -e_7 & e_4 & e_5
+   \\
+ e_3 & e_3 & -e_2 & e_1 & -e_0 & -e_7 & e_6 & -e_5 & e_4
+   \\
+ e_4 & e_4 & e_5 & e_6 & e_7 & e_0 & e_1 & e_2 & e_3 \\
+ e_5 & e_5 & -e_4 & e_7 & -e_6 & -e_1 & e_0 & -e_3 & e_2
+   \\
+ e_6 & e_6 & -e_7 & -e_4 & e_5 & -e_2 & e_3 & e_0 & -e_1
+   \\
+ e_7 & e_7 & e_6 & -e_5 & -e_4 & -e_3 & -e_2 & e_1 & e_0
+   \\
 \end{array}$$
 
 
