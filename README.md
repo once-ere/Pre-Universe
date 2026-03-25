@@ -30,7 +30,7 @@ that are denoted as $\psi_1$ and $\psi_2$ in this repo.
 
 In this draft, Pre-gravity means :
 
-we consider a (possible?) 'Quantum description' of a Pre-Big-Bang spacetime,
+we consider a (possible?) 'Quantum description' of a Pre-Big-Bang ***spacetime***,
 constructed using 
 
 the (pseudo-) Clifford algebra $C_8$
