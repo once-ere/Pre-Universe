@@ -128,7 +128,7 @@ It is a
 proper subspace and we have 
 $$Os = \mathbb{R} \oplus Im \space Os$$.
 
-Givex $x \in Os$, we define the conjugate Os $x \mapsto x^* = 2 <x, 1> - x$;
+Given $x \in Os$, we define the conjugate Os $x \mapsto x^* = 2 <x, 1> - x$;
 
 We denote <x, 1> by Re x 
 
