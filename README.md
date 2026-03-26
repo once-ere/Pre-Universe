@@ -53,11 +53,10 @@ $e^{4,4}_A, \space A = 1-1,...8-1$
 that anticommute with each other
 and have square equal to $\pm$ id.
 
-Explicitly, the generators $e^{4,4}_A,\space A=0, 1, ..., 7$
-
-satisfy 
+Explicitly, the generators $e^{4,4}_A,\space A=0, 1, ..., 7$ satisfy 
 
 $$e^{4,4}_A e^{4,4}_B + e^{4,4}_B e^{4,4}_A  = id \space g_{A B} , \space A, B = 0, 1, ..., 7$$
+
 where
 
 $$g_{A B}=diag(1,1,1,1,-1,-1,-1,-1)$$.
