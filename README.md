@@ -114,7 +114,7 @@ for $\psi$ is defined,
 
 Euler-Lagrange equaions solved,
 
-vector forms of $\psi_1$  and $\psi_2$ calculated (please see 'see split octonions' , below),
+vector forms of $\psi_1$  and $\psi_2$ calculated (please see 'split octonions' , below),
 
 two  7-planes, respectively dual to the preceding two vectors, are computed,
 
