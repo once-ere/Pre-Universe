@@ -109,6 +109,22 @@ $$\psi_2 = \psi_2^{(a)},  (a) \to a = 0, 1, ..., 7$$
 
 [see split octonions, $O_{4,4}$ = Os, below];
 
+A Lagrangian  for $\psi$ is defined,
+
+Euler-Lagrange equaions solved,
+
+vector forms of $\psi_1$  and $\psi_2$ calculated (please see 'see split octonions' , below),
+
+two  7-planes, respectively dual to the preceding two vectors, are computed,
+
+the 6-plane of their intersection identified;
+
+todo:
+
+associate 6-plane with 3 generations of Einstein-Rosen 2-planes.
+
+
+
 This study of a possible 'Quantum construction' of a Pre-Big-Bang ***spacetime*** 
 is also carved out using the split octonion inner product algebra 
 
