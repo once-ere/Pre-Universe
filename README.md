@@ -109,7 +109,8 @@ $$\psi_2 = \psi_2^{(a)},  (a) \to a = 0, 1, ..., 7$$
 
 [see split octonions, $O_{4,4}$ = Os, below];
 
-A Lagrangian  for $\psi$ is defined,
+# A Lagrangian  
+for $\psi$ is defined,
 
 Euler-Lagrange equaions solved,
 
@@ -125,7 +126,8 @@ associate 6-plane with 3 generations of Einstein-Rosen 2-planes.
 
 
 
-This study of a possible 'Quantum construction' of a Pre-Big-Bang ***spacetime*** 
+# This 
+study of a possible 'Quantum construction' of a Pre-Big-Bang ***spacetime*** 
 is also carved out using the split octonion inner product algebra 
 
 $O_{4,4}$ = Os  
