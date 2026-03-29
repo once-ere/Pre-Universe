@@ -63,7 +63,7 @@ BeginPackage["DiracLordNash44`"];
 (*  SECTION 4: Self-Dual and Anti-Self-Dual 4x4 Matrices                      *)
 (*  SECTION 5: 8x8 reduced-Clifford Algebra Generators \[Gamma]88[A] for spinor space        *)
 (*  SECTION 6: Conjugate \[Gamma]88-bar generators                                   *)
-(*  SECTION 7: 16x16 reduced-Clifford Algebra Generators T16^A[n]                     *)
+(*  SECTION 7: 16x16 reduced-Clifford Algebra Generators CA8[n]                     *)
 (*  SECTION 8: Chirality and Volume Elements                                  *)
 (*  SECTION 9: Spin(4,4) Generators S^{AB} (8x8 reducible representations)    *)
 (*  SECTION 10: Verification of Anti-Commutation Relations                    *)
@@ -116,7 +116,7 @@ Subscript[\[DoubleStruckE], 7]::usage = "";
 
 (* Public symbols *)
 
-eZb::usage = "";
+eZb::usage = "display the (Minkowski) vector basis of the split octonion algebra";
 
 
 
@@ -168,6 +168,12 @@ verifyCommutation::usage = "verifyCommutation[] returns True if all spin generat
 
 verifyAntiCommutation8::usage = "Verification function for 8x8 generators.";
 verifyAntiCommutation16::usage = "Verification function for 16x16 generators.";
+
+
+verifySABCA8Commutation::usage = "Verification function for SAB generators with CA8.";
+verifySO44Commutation::usage = "Verification commutation relations for SAB  generators.";
+
+
 VerifyBasis16Orthogonality::usage = "VerifyBasis16Orthogonality[] returns True if basis is orthogonal.";
 
 
@@ -224,9 +230,11 @@ Begin["`Private`"];
 (* ========================================================================== *)
 (*  SECTION 1: Basic Definitions and Identity Matrices                        *)
 (* ========================================================================== *)
-(*X = {x0, x1, x2, x3, x4, x5, x6, x7};
+(*
+X = {x0, x1, x2, x3, x4, x5, x6, x7};
 Protect[X];
-Protect[x0, x1, x2, x3, x4, x5, x6, x7];*)
+Protect[x0, x1, x2, x3, x4, x5, x6, x7];
+*)
 
 ID2 = IdentityMatrix[2];
 ID4 = IdentityMatrix[4];
@@ -344,19 +352,19 @@ PrependTo[OverBar[all\[Gamma]88],OverBar[\[Gamma]88][0]];
 all\[Gamma]88   = Table[\[Gamma]88[A1] ,{A1, 0, 7}];
 all\[Gamma]88Bar=Table[OverBar[\[Gamma]88][A1],{A1, 0, 7}];
 
-Protect[OverBar[\[Gamma]88]];
+(*Protect[OverBar[\[Gamma]88]];Protect::pssl: "\!\(\*OverscriptBox[\"\[Gamma]88\", \"_\"]\) is not a string, symbol or list of strings and symbols."\[NoBreak]*)
 
 
 (* ========================================================================== *)
-(*  SECTION 7: 16x16 reduced-Clifford Algebra Generators T16^A[n]                     *)
+(*  SECTION 7: 16x16 reduced-Clifford Algebra Generators CA8[n]                     *)
 (* ========================================================================== *)
 
 (* The 16x16 generators act on the full spinor space S1 \[CirclePlus] S2 *)
-(* Construction: T16^A[n] = {{0, OverBar[\[Gamma]88][n]}, {\[Gamma]88[n], 0}} *)
+(* Construction: CA8[n] = {{0, OverBar[\[Gamma]88][n]}, {\[Gamma]88[n], 0}} *)
 allT16A=Table[CA8[A1] = ArrayFlatten[{{0, OverBar[\[Gamma]88][A1]}, {\[Gamma]88[A1], 0}}],{A1, 0, 7}
 ];
 
-(* T16^A[8]: The 16D chirality element (product of all generators) *)
+(* CA8[8]: The 16D chirality element (product of all generators) *)
 CA8[8] = CA8[0] . CA8[1] . CA8[2] . CA8[3] . CA8[4] . CA8[5] . CA8[6] . CA8[7];
 AppendTo[allT16A,CA8[8]];
 Protect[CA8,allT16A];
@@ -404,11 +412,12 @@ SAB2=Table[1/4 ( \[Gamma]88[A1] . OverBar[\[Gamma]88][B1]-\[Gamma]88[B1] . OverB
 
 
 (* 16x16 spin generators (act on S1 \[CirclePlus] S2) *)
-SAB = Table[1/4 ((T16^A)[A1] . (T16^A)[B1] - (T16^A)[B1] . (T16^A)[A1]), {A1, 0, 7}, {B1, 0, 7}];
+SAB = Table[1/4 (CA8[A1] . CA8[B1] - CA8[B1] . CA8[A1]), {A1, 0, 7}, {B1, 0, 7}];
 Protect[SAB];
 SAB16[A_, B_] :=SAB[[A,B]];   (*(1/4) * (CA8[A] . CA8[B] - CA8[B] . CA8[A]);*)
 
-
+verifySO44Commutation[] := Table[FullSimplify[SAB[[A1,B1]] . SAB[[A2,B2]] -SAB[[A2,B2]] . SAB[[A1,B1]]==-(\[Eta]88[[A1,A2]]SAB[[B1,B2]]-\[Eta]88[[A1,B2]]SAB[[B1,A2]]-\[Eta]88[[B1,A2]]SAB[[A1,B2]]+\[Eta]88[[B1,B2]]SAB[[A1,A2]])], {A1,1, 7},{B1,A1+1,8},{A2,1, 7},{B2,A2+1,8}]//Flatten//Union
+verifySABCA8Commutation[] := Table[FullSimplify[SAB[[A1,B1]] . CA8[B2-1] -CA8[B2-1] . SAB[[A1,B1]]==(-\[Eta]88[[B2,A1]]CA8[B1-1]+\[Eta]88[[B2,B1]]CA8[A1-1])], {A1,1, 8},{B1,1,8},{B2,1,8}]//Flatten//Union
 
 
 (* Note: S^{AB} = -S^{BA} (antisymmetric) *)
@@ -460,37 +469,7 @@ verifyAntiCommutation[] := verifyAntiCommutation8[] && verifyAntiCommutation16[]
 (* Also, the spin generators transform the reduced-Clifford generators: *)
 (* [S^{AB}, t^C] = eta^{BC}*t^A - eta^{AC}*t^B *)
 
-verifySpinCommutation[] := Module[{result = True, lhs, rhs},
-    (* Check [S^{AB}, t^C] = eta^{BC}*t^A - eta^{AC}*t^B *)
-    Do[
-        lhs = SAB1[A, B] . \[Gamma]88[C] - \[Gamma]88[C] . SAB1[A, B];
-        rhs = \[Eta]88[[B + 1, C + 1]] * \[Gamma]88[A] - \[Eta]88[[A + 1, C + 1]] * \[Gamma]88[B];
-        If[FullSimplify[lhs - rhs] != Array[0 &, {8, 8}],
-            result = False;
-            Print["Spin-reduced-Clifford commutation fails for A=", A, ", B=", B, ", C=", C];
-        ],
-        {A, 1, 7}, {B, A + 1, 7}, {C, 1, 7}
-    ];
-    result
-];
-
-verifySOCommutation[] := Module[{result = True, lhs, rhs, eta},
-    eta = \[Eta]88;
-    (* Check [S^{AB}, S^{CD}] *)
-    Do[
-        lhs = SAB1[A, B] . SAB1[C, D] - SAB1[C, D] . SAB1[A, B];
-        rhs = eta[[B + 1, C + 1]] * SAB1[A, D] - eta[[A + 1, C + 1]] * SAB1[B, D] 
-            - eta[[B + 1, D + 1]] * SAB1[A, C] + eta[[A + 1, D + 1]] * SAB1[B, C];
-        If[FullSimplify[lhs - rhs] != Array[0 &, {8, 8}],
-            result = False;
-            Print["so(4,4) commutation fails for A=", A, ", B=", B, ", C=", C, ", D=", D];
-        ],
-        {A, 1, 6}, {B, A + 1, 7}, {C, 1, 6}, {D, C + 1, 7}
-    ];
-    result
-];
-
-verifyCommutation[] := verifySpinCommutation[] && verifySOCommutation[];
+verifyCommutation[] := verifySABCA8Commutation[] && verifySO44Commutation[];
 
 (* ========================================================================== *)
 (*  SECTION 12: Spinor Metrics and Helper Functions                           *)
@@ -614,9 +593,9 @@ FForthogonality = FaA . FAa===FAa . FaA===ID8;
    The function below computes these structure constants.
 *)
 
-Clear[eZb]; 
-eZb=ToExpression["Subscript[\[DoubleStruckE],"<>ToString[#]<>"]"]&/@Range[0,7];
-Print["Print[eZb] = ",eZb];
+Clear[basisVectorSplitOctonion]; 
+basisVectorSplitOctonion=ToExpression["Subscript[\[DoubleStruckE],"<>ToString[#]<>"]"]&/@Range[0,7];
+Print["Print[basisVectorSplitOctonion] = ",basisVectorSplitOctonion];
 mABC=Array[R,{8,8,8}];
 
 \[Tau]A=\[Eta]88[[#,#]]*\[Gamma]88[#-1]&/@Range[8];
@@ -625,8 +604,8 @@ Do[Do[mABC[[A1,B1,C1]]=Sum[FAa[[C1,c1]]*\[Tau]A[[A1]][[c1,b1]]*FaA[[b1,B1]],{b1,
 splitOctonionMultTableB[bs_]:=Grid[Prepend[Drop[Reap[For[A1=1,A1<9,A1++,Sow[Flatten[{bs[[A1]],
 Table[Sum[mABC[[A1,B1,C1]]*bs[[C1]],{C1,1,8}],{B1,1,8}]}]]]],1][[1]][[1]],Flatten[{"A/B",bs}]],Frame->All];
 
-splitOctonionMultTable=Grid[Prepend[Drop[Reap[For[A1=1,A1<9,A1++,Sow[Flatten[{eZb[[A1]],
-Table[Sum[mABC[[A1,B1,C1]]*eZb[[C1]],{C1,1,8}],{B1,1,8}]}]]]],1][[1]][[1]],Flatten[{"A/B",eZb}]],Frame->All];
+splitOctonionMultTable=Grid[Prepend[Drop[Reap[For[A1=1,A1<9,A1++,Sow[Flatten[{basisVectorSplitOctonion[[A1]],
+Table[Sum[mABC[[A1,B1,C1]]*basisVectorSplitOctonion[[C1]],{C1,1,8}],{B1,1,8}]}]]]],1][[1]][[1]],Flatten[{"A/B",basisVectorSplitOctonion}]],Frame->All];
 
 
 
@@ -970,8 +949,8 @@ Print["Verifying anti-commutation relations..."];
 Print["8x8: ", DiracLordNash44`Private`verifyAntiCommutation8[]];
 Print["16x16: ", DiracLordNash44`Private`verifyAntiCommutation16[]];
 Print["Verifying spin generator commutation relations..."];
-Print["[S,t]: ", DiracLordNash44`Private`verifySpinCommutation[]];
-Print["[S,S]: ", DiracLordNash44`Private`verifySOCommutation[]];
+Print["[S,t]: ", DiracLordNash44`Private`verifySABCA8Commutation[]];
+Print["[S,S]: ", DiracLordNash44`Private`verifySO44Commutation[]];
 *)
 
 (* ========================================================================== *)
